@@ -1,0 +1,13 @@
+/* stylelint-disable selector-class-pattern */
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  width: 120px;
+  height: 45px;
+  box-shadow: 4px 4px 1px 1px black;
+}

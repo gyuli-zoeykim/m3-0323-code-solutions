@@ -1,0 +1,42 @@
+/* stylelint-disable selector-class-pattern */
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.SwitchContainer {
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+.Button {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+  background-color: grey;
+}
+
+.Switch {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+
+.Color {
+  background-color: green;
+}
+
+.Position {
+  transform: translateX(35px);
+}
+
+.Label {
+  padding-left: 25px;
+}

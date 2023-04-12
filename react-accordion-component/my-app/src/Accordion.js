@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Accordion.css';
 
 const Accordion = ({ data }) => {
   const [clicked, setClicked] = useState();
 
-  console.log('value returned by useState', clicked);
   const toggle = (index) => {
     if(clicked === index) {
-      console.log('when double clicked', clicked);
-      setClicked();
+      setClicked()
     } else {
       setClicked(index)
-      console.log('when clicked once', clicked);
     }
   }
 

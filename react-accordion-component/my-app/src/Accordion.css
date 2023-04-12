@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+h1 {
+  background-color: rgb(212 212 212);
+  width: 500px;
+  height: 40px;
+  margin: 0;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.content {
+  width: 500px;
+  padding: 5px;
+}

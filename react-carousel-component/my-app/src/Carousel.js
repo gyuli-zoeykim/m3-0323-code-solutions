@@ -18,7 +18,7 @@ export default function Carousel({ pokedex }) {
   }
 
   useEffect(() => {
-    const timeOut = setTimeout(handleNext, 2000);
+    const timeOut = setTimeout(handleNext, 3000);
     return () => clearTimeout(timeOut);
   });
 

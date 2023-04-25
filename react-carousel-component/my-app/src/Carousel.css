@@ -1,0 +1,17 @@
+.container {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dot-indicator {
+  display: flex;
+}
+
+.arrow {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
